@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.devfreitas.course.services.UserService;
-import com.devfreitas.entities.User;
+import com.devfreitas.couse.entities.User;
 
 @RestController
 @RequestMapping(value = "/users")

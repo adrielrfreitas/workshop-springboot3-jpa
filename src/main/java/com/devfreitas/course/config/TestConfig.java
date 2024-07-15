@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
 import com.devfreitas.course.repositories.UserRepository;
-import com.devfreitas.entities.User;
+import com.devfreitas.couse.entities.User;
 
 @Configuration
 @Profile("test")

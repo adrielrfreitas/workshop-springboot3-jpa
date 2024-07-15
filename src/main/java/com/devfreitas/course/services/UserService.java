@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.devfreitas.course.repositories.UserRepository;
-import com.devfreitas.entities.User;
+import com.devfreitas.couse.entities.User;
 
 @Service
 public class UserService 
