@@ -16,6 +16,7 @@ import com.devfreitas.course.repositories.UserRepository;
 import com.devfreitas.couse.entities.Category;
 import com.devfreitas.couse.entities.Order;
 import com.devfreitas.couse.entities.OrderItem;
+import com.devfreitas.couse.entities.Payment;
 import com.devfreitas.couse.entities.Product;
 import com.devfreitas.couse.entities.User;
 import com.devfreitas.couse.entities.enums.OrderStatus;
@@ -80,5 +81,10 @@ public class TestConfig implements CommandLineRunner
 		OrderItem oi4 = new OrderItem(o3, p5, 2, p5.getPrice());
 		
 		ordemItemRepository.saveAll(Arrays.asList(oi1, oi2, oi3, oi4));
+		
+		Payment pay1 = new Payment(null, Instant.parse("2019-06-20T21:53:07Z"), o1);
+		o1.setPayment(pay1);
+		
+		orderRepository.save(o1);
 	}
 }
