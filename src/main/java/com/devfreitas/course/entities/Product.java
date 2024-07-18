@@ -1,4 +1,4 @@
-package com.devfreitas.couse.entities;
+package com.devfreitas.course.entities;
 
 import java.io.Serializable;
 import java.util.HashSet;

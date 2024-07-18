@@ -3,8 +3,8 @@ package com.devfreitas.couse.entities.pk;
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.devfreitas.couse.entities.Order;
-import com.devfreitas.couse.entities.Product;
+import com.devfreitas.course.entities.Order;
+import com.devfreitas.course.entities.Product;
 
 import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
